@@ -1,0 +1,150 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #c5e4e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #5e7a7d;
+}
+
+.calculator {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.input-section, .output-section {
+    flex: 1;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #5e7a7d;
+    margin: 10px 0 5px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #f3f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-group span {
+    color: #7f9c9f;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00494d;
+}
+
+.tip-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tip-btn {
+    flex: 1;
+    padding: 10px;
+    background: #00494d;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tip-btn:hover, .tip-btn.active {
+    background: #26c0ab;
+}
+
+#customTip {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #26c0ab;
+    border-radius: 5px;
+}
+
+.people-input {
+    border: 2px solid #e17055;
+}
+
+#error-msg {
+    color: #e17055;
+    font-size: 14px;
+    display: none;
+}
+
+.output-section {
+    background: #00494d;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+#resetBtn {
+    background: #26c0ab;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#resetBtn:hover {
+    background: #9fe8df;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .calculator {
+        flex-direction: column;
+    }
+}
