@@ -1,13 +1,12 @@
-Name -kritika
-Student ID- 041130242
 # Tip Calculator App
 
 ## Overview
-This is a solution to the [Tip Calculator App Challenge]) from Frontend Mentor. The goal of this project is to build a fully functional and responsive tip calculator that closely matches the provided design.
+This is a solution to the [Tip Calculator App Challenge](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) from Frontend Mentor. The goal of this project is to build a fully functional and responsive tip calculator that closely matches the provided design.
 
 ## Table of Contents
 - [Project Setup](#project-setup)
 - [Features](#features)
+- [Challenges Faced](#challenges-faced)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -33,6 +32,12 @@ This is a solution to the [Tip Calculator App Challenge]) from Frontend Mentor. 
 - Calculates tip amount per person and total amount per person
 - Reset button to clear inputs
 
+## Challenges Faced
+- **Handling edge cases:** Ensuring that the app correctly handles cases where the user enters zero or negative values.
+- **Responsive layout issues:** Adjusting the design for different screen sizes, especially aligning elements properly.
+- **Custom tip input handling:** Making sure the custom tip percentage overrides the preset values when entered.
+- **Floating point precision errors:** Addressing small rounding errors in JavaScript calculations to provide accurate results.
+
 ## Technologies Used
 - HTML5
 - CSS3 (Flexbox & Grid)
@@ -55,10 +60,9 @@ To run the project locally:
 
 ## Screenshots
 ### Desktop View
-![Desktop Screenshot](.C:\Users\kriti\OneDrive\Pictures\Screenshots\desktop-view-png.png)
+![Desktop Screenshot](./desktop-view.png)
 ### Mobile View
 ![Mobile Screenshot](./screenshots/mobile-view.png)
 
 ## License
 This project is for educational purposes and follows the Frontend Mentor guidelines.
-
