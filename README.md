@@ -61,7 +61,7 @@ To run the project locally:
 ## Screenshots
 ![Desktop Screenshot](./desktop-preview.jpg)
 ### Desktop View
-![Desktop Screenshot](./screenshots/desktop-preview.png)
+![Desktop Screenshot](./desktop-preview.jpg)
 ### Mobile View
 ![Mobile Screenshot](./screenshots/mobile-view.png)
 
