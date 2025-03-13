@@ -59,6 +59,7 @@ To run the project locally:
 [Live Demo Link](https://your-live-demo-link.com)
 
 ## Screenshots
+![Desktop Screenshot](./desktop-preview.jpg)
 ### Desktop View
 ![Desktop Screenshot](./screenshots/desktop-preview.png)
 ### Mobile View
