@@ -67,7 +67,7 @@ To run the project locally:
 ![Desktop Screenshot](./desktop-preview.jpg)
 ### Desktop View
 ![Desktop Screenshot](./desktop-preview.jpg)
-### Mobile View
+### Desktop completed View
 ![Desktop completed](./desktop-design-completed.jpg)
 
 ## License
