@@ -1,3 +1,8 @@
+# mtm6404-frontend-mentor-
+## Challenge: calculator Tips
+
+*Name:* Kritika
+*Student Number:* 90541130242
 # Tip Calculator App
 
 ## Overview
