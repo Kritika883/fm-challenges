@@ -56,11 +56,11 @@ To run the project locally:
 5. Click the reset button to start over.
 
 ## Live Demo
-[Live Demo Link](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+[Live Demo Link](https://your-live-demo-link.com)
 
 ## Screenshots
 ### Desktop View
-![Desktop Screenshot](./desktop-view.png)
+![Desktop Screenshot](./screenshots/desktop-preview.png)
 ### Mobile View
 ![Mobile Screenshot](./screenshots/mobile-view.png)
 
